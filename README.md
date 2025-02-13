@@ -3,7 +3,7 @@ Challenge at LeetCode.com. Tags: Bitwise Operations, Hash table, Math.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-The presented solution demonstrates how we can apply bitwise operations to store information about ''visited points'', even when the input range 
+The presented solutions demonstrate how we can apply bitwise operations to store information about ''visited points'', even when the input range 
 (which is processed as the number of bitwise left shifts) exceeds a 32-bit integer or a 64-bit integer. In this particular case, ''visited points'' stores information about the already seated students on a given bench. The information is needed to avoid seating one and the same student more than once on the same bench.
 
 Solutions with Java, C++, C#, Kotlin, Go.<br/>
