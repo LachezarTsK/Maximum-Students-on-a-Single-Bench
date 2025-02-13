@@ -10,7 +10,7 @@ Solutions with Java, C++, C#, Kotlin, Go.<br/>
 64-bit integers are applied. In order to avoid integer overflow, the input range of IDs [1, 100] is processed in two separate ranges [1, 50] and [51, 100].
 
 Solutions with JavaScript and TypeScript.<br/>
-These two languages, when applying bitwise operations on their inbuilt number (a double-precision 64-bit binary format), the number is treated as a 32-bit number. So, if the information about the ''visited points'' is to be stored with bitwise operations, there are two options:<br/>
+These two languages, when applying bitwise operations on their inbuilt number (a double-precision 64-bit binary format), it is treated as a 32-bit number. So, if the information about the ''visited points'' is to be stored with bitwise operations, there are two options:<br/>
 - apply their BigInt class instead of the inbuilt number<br/>
 - apply the inbuilt number and process the input in four separate ranges [1, 25], [26, 50], [51, 75] and [75, 100]
 
