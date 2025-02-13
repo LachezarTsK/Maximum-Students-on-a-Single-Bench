@@ -9,9 +9,7 @@ var maxStudentsOnBench = function (students) {
     const frequencyStudentsPerBench = new Array(ID_RANGE[1] + 1).fill(0);
     const bitStampForSeatedStudentsOnBench = Array.from(new Array(ID_RANGE[1] + 1), () => new Array(4).fill(0));
 
-    for (let current of students) {
-        const studentID = current[0];
-        const benchID = current[1];
+    for (let [studentID, benchID] of students) {
 
         const index = Math.floor(studentID / (1 + Math.floor(ID_RANGE[1] / 4)));
         const bitShifts = studentID % (1 + Math.floor(ID_RANGE[1] / 4));
