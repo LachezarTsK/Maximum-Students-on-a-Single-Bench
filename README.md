@@ -16,5 +16,5 @@ These two languages, when applying bitwise operations on their inbuilt number (a
 
 The option with BigInt is slightly slower than the one with four separate ranges, therefore the latter approach is taken here.
 Anyway, when it comes to JavaScript and TypeScript, for this particular problem, both of these approaches are much slower 
-than solutions with a Hash Table, as measured by their runtime on leetcode.com.<br/> So, solutions with Hash Set for JavaScript and TypeScript are also included. 
+than solutions with a Hash Table, as measured by their runtime on leetcode.com. So, solutions with Hash Set for JavaScript and TypeScript are also included. 
 
