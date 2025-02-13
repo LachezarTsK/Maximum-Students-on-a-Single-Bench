@@ -12,9 +12,9 @@ Solutions with Java, C++, C#, Kotlin, Go.<br/>
 Solutions with JavaScript and TypeScript.<br/>
 These two languages, when applying bitwise operations on their inbuilt number (a double-precision 64-bit binary format), the number is treated as a 32-bit number. So, if the information about the ''visited points'' is to be stored with bitwise operations, there are two options:<br/>
 - apply their BigInt class instead of the inbuilt number<br/>
-- apply the inbuilt number and process the input in four separate ranges [1, 25], [26, 50], [51, 75] and [75, 100].
+- apply the inbuilt number and process the input in four separate ranges [1, 25], [26, 50], [51, 75] and [75, 100]
 
 The option with BigInt is slightly slower than the one with four separate ranges, therefore the latter approach is taken here.
 Anyway, when it comes to JavaScript and TypeScript, for this particular problem, both of these approaches are much slower 
-than solutions with a Hash Table. So, solutions with Hash Set for JavaScript and TypeScript are also included. 
+than solutions with a Hash Table.<br/> So, solutions with Hash Set for JavaScript and TypeScript are also included. 
 
